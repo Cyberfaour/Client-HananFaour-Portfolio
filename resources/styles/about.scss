@@ -1,0 +1,54 @@
+@import "../styles/common.css";
+
+body{
+    .portfolio{
+        .btn{
+          border: #222725 2px solid;
+          border-radius: 0;
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: small;
+          width: fit-content;
+       }
+        .card{
+         height:fit-content;
+          background: transparent;
+         color: #222725;
+         border-radius: 5px;
+         border:  none;
+         
+        }
+      }
+      .testimonials{
+            .carousel-item{
+              background: transparent !important;
+              color: #222725;
+              .card{
+              border-radius: 25px;
+              text-transform: capitalize;
+              font-weight: bold;
+              font-size: small;
+              background: transparent;
+              border:none;
+              }
+              
+            }}
+      .contact{
+       form{
+          input:focus ,textarea:focus{
+            outline: none;
+            box-shadow: none;
+            border: none !important;
+          }
+          .btn{
+            border: #222725 2px solid;
+            border-radius: 0;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: small;
+            width: fit-content;
+         }
+        }
+        
+      }
+}

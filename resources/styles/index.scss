@@ -1,0 +1,166 @@
+@import "../styles/common.css";
+
+body{
+    
+    
+    .cookie-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 25px;
+      background-color: #222725; /* Update the background color */
+      text-align: center;
+      z-index: 999;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+      
+    }
+  
+    .cookie-banner.hide {
+      opacity: 0;
+    }
+  
+    .cookie-banner button {
+      background-color: #F8F4E3;
+      color:#222725;
+      padding: 10px 20px;
+      border: #222725 2px solid;
+      border-radius: 0;
+      text-transform: capitalize;
+      font-weight: bold;
+      font-size: small;
+      width: fit-content;;
+      
+      
+    }
+  
+    .cookie-banner .message {
+      display: inline-block;
+      margin-right: 10px;
+      color: #F8F4E3; /* Update the text color */
+      
+  
+    }
+
+    .main-container{
+        // border-right: 
+        .hero{
+            font-size: 22px;
+            text-transform: capitalize;
+            font-weight: 700;
+            height: 70vh;
+            .hero-body{
+              .designations{
+                color: #222725;
+                font-weight: 500;
+                font-size: 20px;
+              }
+                .chevron {
+                    background: url("../images/chevron-double-down-svgrepo-com.svg");
+                    width: 50px;
+                    height: 50px;
+                    background-size: cover;
+                    color:#222725;
+                    animation: chevronAnimation 3s infinite;
+                    margin-top: 4rem !important;
+                  }
+                
+                
+                .container{
+                   opacity: 80%;
+                   height: 25vh;
+                   display: flex;
+                
+                }
+            }
+        }
+        .about{
+          .card{
+            height:fit-content;
+            background: transparent;
+            color: #222725;
+            border-radius: 5px;
+            border:  none;
+            font-weight: bold;
+            // font-size: larger;
+            
+           }
+        }
+        .services{
+          
+          color:#222725;
+          
+          .card{
+            background: transparent;
+            color: #222725;
+            border: #22272579 solid 1px;
+            height: 15rem;
+            
+          
+          }
+        }
+        .portfolio{
+          .btn{
+            border: #222725 2px solid;
+            border-radius: 0;
+            text-transform: capitalize;
+            font-weight: bold;
+            font-size: small;
+            width: fit-content;
+         }
+          .card{
+           height:fit-content;
+            background: transparent;
+           color: #222725;
+           border-radius: 5px;
+           border:  none;
+           
+          }
+        }
+        .testimonials{
+              .carousel-item{
+                background: transparent !important;
+                color: #222725;
+                .card{
+                border-radius: 25px;
+                text-transform: capitalize;
+                font-weight: bold;
+                font-size: small;
+                background: transparent;
+                border:none;
+                }
+                
+              }}
+        .contact{
+         form{
+            input:focus ,textarea:focus{
+              outline: none;
+              box-shadow: none;
+              border: none !important;
+            }
+            .btn{
+              border: #222725 2px solid;
+              border-radius: 0;
+              text-transform: capitalize;
+              font-weight: bold;
+              font-size: small;
+              width: fit-content;
+           }
+          }
+          
+        }
+     }
+}
+
+@keyframes chevronAnimation {
+  0% {
+    transform: translateY(0); /* Start at the default position */
+  }
+  50% {
+    transform: translateY(-100%); /* Move up by 100% of the height */
+  }
+  100% {
+    transform: translateY(0); /* Move back to the default position */
+  }
+}
